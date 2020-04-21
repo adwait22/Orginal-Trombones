@@ -136,6 +136,10 @@ form {
     flex: 80%;
 }
 
+.feature > div > div > h2 {
+    padding-left: 10px;
+}
+
 @media (max-width: 668px) {
 
     .feature-1-logo, .feature-2-logo, .feature-3-logo {
@@ -151,6 +155,7 @@ form {
     max-width: 600px;
     width: 90%;
     height: 300px;
+    border-radius: 10px;
 }
 
 .ytVideo {
@@ -171,6 +176,7 @@ form {
     flex: 1;
     text-align: center;
     margin-right: 20px;
+    border-radius: 10px;
 
 }
 
@@ -179,6 +185,7 @@ div > div > h2 {
     height: 40px;
     margin-top: 0;
     padding-top: 10px;
+    border-radius: 10px;
 }
 div > div > input {
     width: 110px;
@@ -187,17 +194,26 @@ div > div > input {
     margin-bottom: 15px;
     font-weight: 900;
     font-size: 16px;
+    border-radius: 10px;
 }
+
+div > div > input:hover {
+    cursor: pointer;
+    background-color: yellow;
+}
+
+
 
 @media (max-width: 850px) {
     .prices {
         flex-wrap: wrap;
-        
+
     }
     
     .tenor, .bass, .valve {
         flex: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 20px !important;
+        margin-right: 0;
     }
 }
 
