@@ -192,12 +192,12 @@ div > div > input {
 @media (max-width: 850px) {
     .prices {
         flex-wrap: wrap;
+        
     }
     
     .tenor, .bass, .valve {
         flex: 100%;
         margin-bottom: 20px;
-        flex-basis: 50%;
     }
 }
 
